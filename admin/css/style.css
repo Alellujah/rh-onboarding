@@ -1,0 +1,225 @@
+/* General Styles */
+body{
+  overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+li{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p, table{
+  font-family: 'Open Sans', sans-serif;
+}
+
+#header-title{
+  color:#333333;
+  /*margin-bottom: 2rem;*/
+  padding-top:2rem;
+  padding-bottom:2rem;
+  font-weight: bold;
+}
+
+#header-title h2{
+  float:left;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1.5rem;  
+  color: #b7b7b7;
+}
+
+/* Left Nav */
+
+img#logo{
+  max-width: 8rem;
+  padding: 1rem;
+  margin: auto;
+  display: block;
+}
+
+div#left-nav {
+  padding: 0;
+  width: 8rem;
+}
+div#nav-wrapper{
+  background: #333333;
+  position:fixed;
+  top: 0;
+  left: 0;
+  bottom:0;
+}
+.medium-11{
+  width: 90%;
+  margin-left:8rem;
+}
+#left-nav ul{
+  margin-left:0;
+}
+
+#left-nav ul li {
+  list-style-type: none;
+  padding-top:3rem;
+  padding-bottom:3rem;
+  margin-top:1rem;
+  text-align:center;
+  padding: 1rem;
+  font-size:.8rem;
+}
+select {
+    max-width: 15rem;
+    margin-top: 1rem;
+}
+#left-nav a{
+  color:#fff;
+}
+
+#left-nav ul img{
+  max-width: 2rem;
+  margin-bottom: .5rem;
+}
+
+.active{
+  background-color:#f3f3cd;
+}
+
+/* Table */
+table tbody td{
+  padding:1rem;
+  text-align:center;
+}
+
+/* Buttons */
+  a.btn {
+    padding: 0.5rem 1rem;
+    background-color: #ffdd00;
+    color: #333333;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    float: right;
+    margin-right: 1rem;
+  }
+  .add{
+    float: right;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-weight: bold;
+    border: 2px solid;
+    padding: .5rem;
+  }
+
+  input.btn_submit {
+    padding: .5rem 1rem;
+    background: #ffdd00;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    clear: both;
+    float: right;
+    color: #333333;
+  }
+
+  span.edit_icons:nth-child(1){
+    /*background: rgba(0, 220, 255, 0.53);
+    border-radius: 2rem;*/
+    padding: .5rem;
+  }
+  span.edit_icons{
+    /*background: rgba(255, 24, 0, 0.52);
+    border-radius: 2rem;*/
+    padding: .5rem;
+  }
+
+  span.edit_icons a{
+    color:#333333;
+  }
+td{
+  border:1px solid #eee;
+}
+.view_page table tbody td, .view_page table tbody th{
+  padding: 1.5rem .5rem;
+}
+
+.page_edit , .add_page{
+  padding-left: 0;
+}
+.page_edit table tbody td , .add_page table tbody td{
+  padding:0.3rem;
+  padding-left: 1rem;
+}
+.page_edit input[type="date"] , .add_page input[type="date"]{
+  margin-top: 1rem;
+  border: 0;
+  background-color: #fff;
+  box-shadow: none;
+  max-width: 12rem;
+}
+.page_edit input[type="text"], .page_edit input[type="password"], .add_page input[type="text"] , .add_page input[type="password"]{
+  padding-top:1.5rem;
+  border-bottom: 0;
+  color:#333333;
+  height: auto;
+}
+.page_edit input[type="text"]:focus, input[type="password"]:focus, .add_page input[type="text"]:focus, .add_page input[type="password"]:focus{
+  font-weight: bold;
+  border:0;
+}
+.page_edit table tbody tr:nth-child(even), .add_page table tbody tr:nth-child(even){
+  background-color: #fff;
+}
+.page_edit td:first-child, .add_page td:first-child{
+  text-transform: uppercase;
+background-color: #333333;
+color: #fff;
+font-weight: bold;
+border-color:#484848;
+}
+  table tbody td, table tbody th{
+    font-size: .8rem;
+    text-align: left;
+    padding-left: 1rem;
+  }
+  table tbody th{
+    text-transform: uppercase;
+  }
+  .view_page ul{
+    margin-bottom: 0;
+    list-style-type: square;
+  }
+  th{
+    background-color: #333333;
+    color: #fff;
+    font-weight: bold;
+    }
+  table tbody tr:nth-child(even){
+    background-color: #fff;
+  }
+  /* inputs */
+  input[type="text"],input[type="password"] {
+    border: 0;
+    border-bottom: 2px solid #646464;
+    background: transparent;
+    box-shadow: none;
+    color: #969696;
+  }
+  input[type="text"]:focus,input[type="password"]:focus {
+    border: 0;
+    border-bottom: 2px solid;
+    background: transparent;
+    box-shadow: none;
+    border-bottom: 2px solid #969696;
+    color: #646464;
+  }
+  .mdl-button.mdl-button--colored{
+    width:100%;
+  }
+  .mdl-layout__container{
+    text-align:center;
+  }
+  .mdl-card__supporting-text{
+    width:100%;
+  }
+  .mdl-layout__content{
+    text-align:center;
+  }
